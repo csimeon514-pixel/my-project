@@ -1,0 +1,91 @@
+/* TEAM PAGE STYLE - ART 205 Group 05 */
+/* PROJECT COLORS: PURPLE AND WHITE */
+
+:root {
+  --main-color: #6A1FA2;   /* Purple */
+  --dark-purple: #4A0E7A; /* Darker Purple for hover */
+  --accent-color: #9B30FF; /* Light Purple */
+  --light-bg: #FFFFFF;     /* White */
+  --card-bg: #F8F0FF;      /* Very Light Purple for cards */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--light-bg);
+  text-align: center;
+}
+
+nav {
+  background: var(--main-color);
+  padding: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+h1 {
+  color: var(--main-color);
+  margin-top: 30px;
+}
+
+p.subtitle {
+  color: #555;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: var(--card-bg);
+  width: 240px;
+  padding: 20px;
+  border-radius: 12px;
+  border-top: 5px solid var(--main-color);
+  box-shadow: 0 4px 10px rgba(106, 31, 162, 0.15);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--main-color);
+}
+
+.card h3 {
+  color: var(--main-color);
+  margin: 12px 0 5px;
+}
+.card h4{
+  color: var(--main-color);
+  margin: 12px 0 5px;
+}
+
+.card p {
+  color: #444;
+  margin: 0;
+}
+
+.card .role {
+  background: var(--main-color);
+  color: white;
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-top: 8px;
+}
